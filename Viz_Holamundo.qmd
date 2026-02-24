@@ -1,0 +1,22 @@
+---
+title: "Viz_Holamundo"
+Author: "Juan Daniel Endara
+format: html
+---
+
+# Dataset
+
+Vamos a utilizar el dataset...
+
+```{python}
+import altair as alt
+from vega_datasets import data
+
+```
+
+# Autos
+
+```{python}
+cars = data.cars()
+cars.head()
+```
